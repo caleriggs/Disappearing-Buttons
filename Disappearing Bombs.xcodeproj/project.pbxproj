@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3FEEC11C57220B00D60E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FEEC01C57220B00D60E86 /* AppDelegate.swift */; };
+		8E3FEEC31C57220B00D60E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FEEC21C57220B00D60E86 /* ViewController.swift */; };
+		8E3FEEC61C57220B00D60E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3FEEC41C57220B00D60E86 /* Main.storyboard */; };
+		8E3FEEC81C57220B00D60E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3FEEC71C57220B00D60E86 /* Assets.xcassets */; };
+		8E3FEECB1C57220B00D60E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3FEEC91C57220B00D60E86 /* LaunchScreen.storyboard */; };
+		8E3FEED61C57220B00D60E86 /* Disappearing_BombsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FEED51C57220B00D60E86 /* Disappearing_BombsTests.swift */; };
+		8E3FEEE11C57220B00D60E86 /* Disappearing_BombsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FEEE01C57220B00D60E86 /* Disappearing_BombsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E3FEED21C57220B00D60E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3FEEB51C57220B00D60E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3FEEBC1C57220B00D60E86;
+			remoteInfo = "Disappearing Bombs";
+		};
+		8E3FEEDD1C57220B00D60E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3FEEB51C57220B00D60E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3FEEBC1C57220B00D60E86;
+			remoteInfo = "Disappearing Bombs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E3FEEBD1C57220B00D60E86 /* Disappearing Bombs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disappearing Bombs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3FEEC01C57220B00D60E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E3FEEC21C57220B00D60E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E3FEEC51C57220B00D60E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E3FEEC71C57220B00D60E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3FEECA1C57220B00D60E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E3FEECC1C57220B00D60E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3FEED11C57220B00D60E86 /* Disappearing BombsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disappearing BombsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3FEED51C57220B00D60E86 /* Disappearing_BombsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disappearing_BombsTests.swift; sourceTree = "<group>"; };
+		8E3FEED71C57220B00D60E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3FEEDC1C57220B00D60E86 /* Disappearing BombsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disappearing BombsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3FEEE01C57220B00D60E86 /* Disappearing_BombsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disappearing_BombsUITests.swift; sourceTree = "<group>"; };
+		8E3FEEE21C57220B00D60E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3FEEBA1C57220B00D60E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3FEECE1C57220B00D60E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3FEED91C57220B00D60E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3FEEB41C57220B00D60E86 = {
+			isa = PBXGroup;
+			children = (
+				8E3FEEBF1C57220B00D60E86 /* Disappearing Bombs */,
+				8E3FEED41C57220B00D60E86 /* Disappearing BombsTests */,
+				8E3FEEDF1C57220B00D60E86 /* Disappearing BombsUITests */,
+				8E3FEEBE1C57220B00D60E86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3FEEBE1C57220B00D60E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3FEEBD1C57220B00D60E86 /* Disappearing Bombs.app */,
+				8E3FEED11C57220B00D60E86 /* Disappearing BombsTests.xctest */,
+				8E3FEEDC1C57220B00D60E86 /* Disappearing BombsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3FEEBF1C57220B00D60E86 /* Disappearing Bombs */ = {
+			isa = PBXGroup;
+			children = (
+				8E3FEEC01C57220B00D60E86 /* AppDelegate.swift */,
+				8E3FEEC21C57220B00D60E86 /* ViewController.swift */,
+				8E3FEEC41C57220B00D60E86 /* Main.storyboard */,
+				8E3FEEC71C57220B00D60E86 /* Assets.xcassets */,
+				8E3FEEC91C57220B00D60E86 /* LaunchScreen.storyboard */,
+				8E3FEECC1C57220B00D60E86 /* Info.plist */,
+			);
+			path = "Disappearing Bombs";
+			sourceTree = "<group>";
+		};
+		8E3FEED41C57220B00D60E86 /* Disappearing BombsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3FEED51C57220B00D60E86 /* Disappearing_BombsTests.swift */,
+				8E3FEED71C57220B00D60E86 /* Info.plist */,
+			);
+			path = "Disappearing BombsTests";
+			sourceTree = "<group>";
+		};
+		8E3FEEDF1C57220B00D60E86 /* Disappearing BombsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3FEEE01C57220B00D60E86 /* Disappearing_BombsUITests.swift */,
+				8E3FEEE21C57220B00D60E86 /* Info.plist */,
+			);
+			path = "Disappearing BombsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3FEEBC1C57220B00D60E86 /* Disappearing Bombs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3FEEE51C57220B00D60E86 /* Build configuration list for PBXNativeTarget "Disappearing Bombs" */;
+			buildPhases = (
+				8E3FEEB91C57220B00D60E86 /* Sources */,
+				8E3FEEBA1C57220B00D60E86 /* Frameworks */,
+				8E3FEEBB1C57220B00D60E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disappearing Bombs";
+			productName = "Disappearing Bombs";
+			productReference = 8E3FEEBD1C57220B00D60E86 /* Disappearing Bombs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E3FEED01C57220B00D60E86 /* Disappearing BombsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3FEEE81C57220B00D60E86 /* Build configuration list for PBXNativeTarget "Disappearing BombsTests" */;
+			buildPhases = (
+				8E3FEECD1C57220B00D60E86 /* Sources */,
+				8E3FEECE1C57220B00D60E86 /* Frameworks */,
+				8E3FEECF1C57220B00D60E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3FEED31C57220B00D60E86 /* PBXTargetDependency */,
+			);
+			name = "Disappearing BombsTests";
+			productName = "Disappearing BombsTests";
+			productReference = 8E3FEED11C57220B00D60E86 /* Disappearing BombsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E3FEEDB1C57220B00D60E86 /* Disappearing BombsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3FEEEB1C57220B00D60E86 /* Build configuration list for PBXNativeTarget "Disappearing BombsUITests" */;
+			buildPhases = (
+				8E3FEED81C57220B00D60E86 /* Sources */,
+				8E3FEED91C57220B00D60E86 /* Frameworks */,
+				8E3FEEDA1C57220B00D60E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3FEEDE1C57220B00D60E86 /* PBXTargetDependency */,
+			);
+			name = "Disappearing BombsUITests";
+			productName = "Disappearing BombsUITests";
+			productReference = 8E3FEEDC1C57220B00D60E86 /* Disappearing BombsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3FEEB51C57220B00D60E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Cale Riggs";
+				TargetAttributes = {
+					8E3FEEBC1C57220B00D60E86 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8E3FEED01C57220B00D60E86 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8E3FEEBC1C57220B00D60E86;
+					};
+					8E3FEEDB1C57220B00D60E86 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8E3FEEBC1C57220B00D60E86;
+					};
+				};
+			};
+			buildConfigurationList = 8E3FEEB81C57220B00D60E86 /* Build configuration list for PBXProject "Disappearing Bombs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E3FEEB41C57220B00D60E86;
+			productRefGroup = 8E3FEEBE1C57220B00D60E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3FEEBC1C57220B00D60E86 /* Disappearing Bombs */,
+				8E3FEED01C57220B00D60E86 /* Disappearing BombsTests */,
+				8E3FEEDB1C57220B00D60E86 /* Disappearing BombsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3FEEBB1C57220B00D60E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3FEECB1C57220B00D60E86 /* LaunchScreen.storyboard in Resources */,
+				8E3FEEC81C57220B00D60E86 /* Assets.xcassets in Resources */,
+				8E3FEEC61C57220B00D60E86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3FEECF1C57220B00D60E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3FEEDA1C57220B00D60E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3FEEB91C57220B00D60E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3FEEC31C57220B00D60E86 /* ViewController.swift in Sources */,
+				8E3FEEC11C57220B00D60E86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3FEECD1C57220B00D60E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3FEED61C57220B00D60E86 /* Disappearing_BombsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3FEED81C57220B00D60E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3FEEE11C57220B00D60E86 /* Disappearing_BombsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E3FEED31C57220B00D60E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3FEEBC1C57220B00D60E86 /* Disappearing Bombs */;
+			targetProxy = 8E3FEED21C57220B00D60E86 /* PBXContainerItemProxy */;
+		};
+		8E3FEEDE1C57220B00D60E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3FEEBC1C57220B00D60E86 /* Disappearing Bombs */;
+			targetProxy = 8E3FEEDD1C57220B00D60E86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E3FEEC41C57220B00D60E86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3FEEC51C57220B00D60E86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E3FEEC91C57220B00D60E86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3FEECA1C57220B00D60E86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E3FEEE31C57220B00D60E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E3FEEE41C57220B00D60E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E3FEEE61C57220B00D60E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Disappearing Bombs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caleriggs.Disappearing-Bombs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E3FEEE71C57220B00D60E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Disappearing Bombs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caleriggs.Disappearing-Bombs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E3FEEE91C57220B00D60E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Disappearing BombsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caleriggs.Disappearing-BombsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disappearing Bombs.app/Disappearing Bombs";
+			};
+			name = Debug;
+		};
+		8E3FEEEA1C57220B00D60E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Disappearing BombsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caleriggs.Disappearing-BombsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disappearing Bombs.app/Disappearing Bombs";
+			};
+			name = Release;
+		};
+		8E3FEEEC1C57220B00D60E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Disappearing BombsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caleriggs.Disappearing-BombsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Disappearing Bombs";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8E3FEEED1C57220B00D60E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Disappearing BombsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caleriggs.Disappearing-BombsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Disappearing Bombs";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E3FEEB81C57220B00D60E86 /* Build configuration list for PBXProject "Disappearing Bombs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3FEEE31C57220B00D60E86 /* Debug */,
+				8E3FEEE41C57220B00D60E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3FEEE51C57220B00D60E86 /* Build configuration list for PBXNativeTarget "Disappearing Bombs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3FEEE61C57220B00D60E86 /* Debug */,
+				8E3FEEE71C57220B00D60E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E3FEEE81C57220B00D60E86 /* Build configuration list for PBXNativeTarget "Disappearing BombsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3FEEE91C57220B00D60E86 /* Debug */,
+				8E3FEEEA1C57220B00D60E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E3FEEEB1C57220B00D60E86 /* Build configuration list for PBXNativeTarget "Disappearing BombsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3FEEEC1C57220B00D60E86 /* Debug */,
+				8E3FEEED1C57220B00D60E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E3FEEB51C57220B00D60E86 /* Project object */;
+}
